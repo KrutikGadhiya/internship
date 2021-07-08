@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Proza+Libre:wght@400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 0.6em;
+  height: 0.6em;
+}
+
+html::-webkit-scrollbar-track {
+  background: linear-gradient(#ebe4f7, #fbf4ff);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #6a30d945;
+  border-radius: 16px;
+  box-shadow: inset 2px 2px 2px hsl(0deg 0% 100% / 25%),
+    inset -2px -2px 2px rgb(0 0 0 / 25%);
+  transition: 0.5s ease;
+}
+html::-webkit-scrollbar-thumb:hover {
+  background: #6a30d975;
+}
+
+body {
+  /* font-family: Proza Libre, sans-serif; */
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: 'Ubuntu', sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
